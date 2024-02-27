@@ -77,16 +77,11 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
-    autoprefixer-rails (10.4.16.0)
-      execjs (~> 2)
     base64 (0.2.0)
     bigdecimal (3.1.6)
     bindex (0.8.1)
     bootsnap (1.18.3)
       msgpack (~> 1.2)
-    bootstrap-sass (3.4.1)
-      autoprefixer-rails (>= 5.2.1)
-      sassc (>= 2.0.0)
     builder (3.2.4)
     capybara (3.40.0)
       addressable
@@ -107,8 +102,6 @@ GEM
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
-    execjs (2.9.1)
-    ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.1)
@@ -189,10 +182,6 @@ GEM
       activesupport (= 7.1.3)
       bundler (>= 1.15.0)
       railties (= 7.1.3)
-    rails-controller-testing (1.0.5)
-      actionpack (>= 5.0.1.rc1)
-      actionview (>= 5.0.1.rc1)
-      activesupport (>= 5.0.1.rc1)
     rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
@@ -217,8 +206,6 @@ GEM
     rexml (3.2.6)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
-    sassc (2.4.0)
-      ffi (~> 1.9)
     selenium-webdriver (4.17.0)
       base64 (~> 0.2)
       rexml (~> 3.2, >= 3.2.5)
@@ -266,7 +253,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bootstrap-sass (~> 3.4.1)
   capybara
   debug
   importmap-rails
@@ -274,7 +260,6 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.1.3)
-  rails-controller-testing
   selenium-webdriver
   sprockets-rails
   stimulus-rails
